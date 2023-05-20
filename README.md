@@ -100,6 +100,9 @@ I performed a permutation test with the null hypothesis that, if `CUSTOMERS.AFFE
 
 From this, we can confirm that the missingness of `CUSTOMERS.AFFECTED` depends on another column, `CAUSE.CATEGORY`.
 
+
+---
+
 ## Hypothesis Testing
 
 <strong>Null Hypothesis</strong>: In all outages, the residential electricity price has a similar distribution, and the observed differences in this datset are due to random chance.
@@ -114,7 +117,7 @@ Here is a plot of the two distributuions.
 
 
 
-Test statistic: Difference in Means
+For test statistic, I chose difference in means because it the distributions are faily similar in shape. 
 
 Significance Level: p<0.05
 
